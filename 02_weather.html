@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather</title>
+	<link rel="stylesheet" type="text/css" href="02_weather_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<div class="left-top"></div>
+			<div class="left-bottom">
+				<div class="temp">20<sup>&#176c</sup></div>
+				<div class="place">
+					<div class="city">vishakhapatnam</div>
+					<div class="condition">Rainy weather, mostly cloud</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="searchbar">
+				<form class="input">
+					<input type="text" placeholder="Location">
+					 <button>
+					 	<img src="search.png" class="png">	
+					 </button>
+				</form>
+			</div>
+			<div class="details">
+				<div class="right-temp">
+					Weather Forecast
+				</div>
+				<div class="right-temp">
+					<span id="details-place">Vishakapatnam</span>
+					<span id="date">, Friday jan 3 2023, 8:45AM</span>
+				</div>
+				<div class="feelslike">
+					Feels like 23&#176
+				</div>
+
+				<div class="seperator"></div>
+
+				<div class="weatdet" id="humidty">
+					<span class="align">Humidity 
+						<img src="humidity.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-humidity">89%</span>
+				</div>
+
+				<div class="weatdet" id="clouds">
+					<span class="align">Clouds 
+						<img src="clouds2.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-clouds">100%</span>
+				</div>
+
+				<div class="weatdet" id="wind">
+					<span class="align">Winds 
+						<img src="wind.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-winds">23m/s</span>
+				</div>
+
+				<div class="weatdet" id="rain">
+					<span class="align">Pressure 
+						<img src="pressure1.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-pressure">100hPa</span>
+				</div>
+
+				<div class="weatdet" id="sunrise">
+					<span class="align">Sunrise 
+						<img src="sunset2.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-sunrise">06:00AM</span>
+				</div>
+
+				<div class="weatdet" id="sunset">
+					<span class="align">Sunset 
+						<img src="sunset3.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-sunset">7:00PM</span>
+				</div>
+
+				<div class="weatdet" id="direction">
+					<span class="align">Wind Direction
+						<img src="direction.png" class="png">
+					</span>
+					<span class="forecast" id="forecast-direction">180deg</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+<!-- <script type="text/javascript" src="02_weather_script.js"></script> -->
+</body>
+</html>
